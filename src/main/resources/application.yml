@@ -6,20 +6,23 @@ zeebe:
     # enable Camunda Spring client
     enabled: true
 
+# try to disable Operate client but not working
+operate:
+  client:
+    enabled: false
+
 camunda:
   operate:
     client:
-      # try to disable Operate client but not working
-      enabled: false
       # reduce retry time of Operate client to fail faster
       startup:
         retry:
           maxAttempts: 1
           awaitDurationInSeconds: 0
-# try to disable nested inbound connector beans but not working
-#  connector:
-#    polling:
-#      enabled: false
+  # try to disable nested inbound connector beans but not working
+  connector:
+    polling:
+      enabled: false
 #    webhook:
 #      enabled: false
 

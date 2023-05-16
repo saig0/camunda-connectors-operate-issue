@@ -52,27 +52,9 @@
       </dependency>
 
       <dependency>
-        <groupId>io.camunda.spring</groupId>
-        <artifactId>spring-boot-starter-camunda</artifactId>
-        <version>${camunda-spring.version}</version>
-      </dependency>
-
-      <dependency>
         <groupId>io.camunda.connector</groupId>
-        <artifactId>connector-runtime-bundle</artifactId>
+        <artifactId>spring-boot-starter-camunda-connectors</artifactId>
         <version>${camunda-connector-bundle.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>io.camunda.connector</groupId>
-        <artifactId>connector-runtime-util</artifactId>
-        <version>${camunda-connector-sdk.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>io.camunda.connector</groupId>
-        <artifactId>connector-validation</artifactId>
-        <version>${camunda-connector-sdk.version}</version>
       </dependency>
 
       <dependency>
@@ -121,23 +103,8 @@
     <!-- Camunda dependencies -->
 
     <dependency>
-      <groupId>io.camunda.spring</groupId>
-      <artifactId>spring-boot-starter-camunda</artifactId>
-    </dependency>
-
-    <dependency>
       <groupId>io.camunda.connector</groupId>
-      <artifactId>connector-runtime-bundle</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>io.camunda.connector</groupId>
-      <artifactId>connector-runtime-util</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>io.camunda.connector</groupId>
-      <artifactId>connector-validation</artifactId>
+      <artifactId>spring-boot-starter-camunda-connectors</artifactId>
     </dependency>
 
     <!-- Spring dependencies -->
