@@ -35,8 +35,8 @@
     <!-- Camunda dependencies   -->
     <camunda-spring.version>8.2.1</camunda-spring.version>
     <!-- is working with connector bundle version 0.18.2 -->
-    <camunda-connector-bundle.version>0.19.2</camunda-connector-bundle.version>
-    <camunda-connector-sdk.version>0.9.0</camunda-connector-sdk.version>
+    <camunda-connector-bundle.version>0.20.0</camunda-connector-bundle.version>
+    <camunda-connector-sdk.version>0.10.0</camunda-connector-sdk.version>
     <zeebe-test-container.version>3.5.2</zeebe-test-container.version>
     <test-container.version>1.18.0</test-container.version>
   </properties>
